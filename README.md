@@ -12,7 +12,7 @@ Para un blog de usuarios se necesita desarrollar una aplicación que permita con
 Se requiere que la aplicación pueda: 
 1. Consultar los usuarios del blog y sus respectivos datos.
 2. Listar y filtrar los posts de los usuarios con los respectivos comentarios.
-3. Listar y filtrar los albunes de fotos de los usuarios y poder visualizarlas.
+3. Listar y filtrar los albumes de fotos de los usuarios y poder visualizarlas.
 4. Listar y filtrar las tareas asignadas al usuario.
 5. Generar un perfil de usuario en el cuál se puedan visualizar las tareas a completar, el último post, comentario y foto con la que interactuó.
 
