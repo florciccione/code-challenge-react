@@ -14,7 +14,7 @@ Se requiere que la aplicación pueda:
 2. Listar y filtrar los posts de los usuarios con los respectivos comentarios.
 3. Listar y filtrar los albumes de fotos de los usuarios y poder visualizarlas.
 4. Listar y filtrar las tareas asignadas al usuario.
-5. Generar un perfil de usuario en el cuál se puedan visualizar las tareas a completar, el último post, comentario y foto con la que interactuó.
+5. Generar un perfil de usuario en el cuál se puedan visualizar las tareas a completar, el último post creado, el último comentario realizado y la última foto cargada.
 
 Para obtener los datos se deberá realizar las peticiones a la API desarrollada por JSONPlaceholder (https://jsonplaceholder.typicode.com/). No será necesario ningún formulario de carga de datos ni eliminación, se utilizarán los datos que se encuentran cargados por defecto.
 
