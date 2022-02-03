@@ -30,6 +30,8 @@ Como referencia, el modelo del backend es el siguiente:
 
 ![plot](./modelo.png)
 
+No hay restricciones en cuanto a la disposición de los datos o las transiciones entre las diferentes pantallas, queda a criterio del desarrollador la mejor opción.
+En la búsqueda de nuevos usuarios o blogs se busca que la aplicación haga hincapié en el uso de los estilos para hacerla atractiva a la vista general.
 
 ### Cómo presentar la solución
 Cuando consideres que el problema está resuelto, debes subirlo a un repositorio de tu elección y enviarnos un mail a fsare@culturait.com.ar con el link del repositorio adjunto, además podes agregar cualquier comentario que creas correspondiente.
