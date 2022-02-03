@@ -22,9 +22,9 @@ Para obtener los datos se deberá realizar las peticiones a la API desarrollada 
 El frontend de la apliación se deberá desarrollar utilizando React.
 El backend se consumira de https://jsonplaceholder.typicode.com/.
 Las rutas posibles para obtener datos llevan la siguiente estructura:
-    - GET	/posts -- https://jsonplaceholder.typicode.com/posts
-    - GET	/posts/1 -- https://jsonplaceholder.typicode.com/posts/1
-    - GET	/posts/1/comments -- https://jsonplaceholder.typicode.com/posts/1/comments
+- GET	/posts -- https://jsonplaceholder.typicode.com/posts
+- GET	/posts/1 -- https://jsonplaceholder.typicode.com/posts/1
+- GET	/posts/1/comments -- https://jsonplaceholder.typicode.com/posts/1/comments
 Como referencia, el modelo del backend es el siguiente:
 
 ![plot](./modelo.png)
