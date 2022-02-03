@@ -25,6 +25,7 @@ Las rutas posibles para obtener datos llevan la siguiente estructura:
 - GET	/posts -- https://jsonplaceholder.typicode.com/posts
 - GET	/posts/1 -- https://jsonplaceholder.typicode.com/posts/1
 - GET	/posts/1/comments -- https://jsonplaceholder.typicode.com/posts/1/comments  
+
 Como referencia, el modelo del backend es el siguiente:
 
 ![plot](./modelo.png)
