@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from "react-router-dom";
-import { useAppSelector } from "../../../hooks/redux";
 import { Link } from "react-router-dom";
 
 import Button from '@mui/material/Button';
@@ -11,17 +10,24 @@ import CardActions from '@mui/material/CardActions';
 import CircularProgress from '@mui/material/CircularProgress';
 import Typography from '@mui/material/Typography';
 
+import { useAppDispatch, useAppSelector } from "../../../hooks/redux";
+import { getPostByUsers } from "../../../redux/slice";
+
 import PostList from "./PostList"
 
 function PostsPage() {
     let params = useParams();
-  
+    const dispatch = useAppDispatch();
     const usersList = useAppSelector((state) => state.blog.usersList);
     const isFetchingPost = useAppSelector((state) => state.blog.isFetchingPost);
     const postsList = useAppSelector((state) => state.blog.postsList);
 
     const userId = parseInt(params.userId)
-    const userName = usersList.filter((user) => user.id === userId)[0].name;
+    const userName = usersList && usersList.filter((user) => user.id === userId)[0].name;
+    
+    useEffect(() => {
+        dispatch(getPostByUsers(userId));
+    },[userId, dispatch]);
 
     return (
         <Grid 
