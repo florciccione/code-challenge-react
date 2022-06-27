@@ -1,0 +1,36 @@
+*{
+  margin:0;
+}
+body {
+  width: 100%;
+}
+html {
+  background-color: #f2f2f2a1;
+}
+main {
+  padding: "1rem"
+}
+#root {
+  padding: 5rem 2rem;
+}
+.app {
+  text-align: center;
+}
+.dialogContent{
+  min-height: 55vh;
+}
+.titleBold {
+  font-weight: 700 !important;
+}
+.commentContainer {
+  padding-top: 2rem;
+}
+.commentContent {
+  padding: 1rem;
+}
+.postDialogContainer {
+  padding: 3rem;
+}
+.comment{
+  padding-bottom: 1rem;
+}
